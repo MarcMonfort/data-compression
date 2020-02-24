@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Compresor_PROP_41.2: Fichero Fuente lzssTest.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Compresor_PROP_41.2
+   &#160;<span id="projectnumber">17-11-2019</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_192d4298d62a342c9564c57cab9b3ce6.html">compresor</a></li><li class="navelem"><a class="el" href="dir_dee2642010482a6bd6f7c182bc51873c.html">tests</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">lzssTest.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="lzss_test_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">package </span>compresor.tests;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">import</span> <a class="code" href="namespacecompresor.html">compresor</a>.<a class="code" href="namespacecompresor_1_1dominio.html">dominio</a>.<a class="code" href="namespacecompresor_1_1dominio_1_1algoritmo.html">algoritmo</a>.<a class="code" href="classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_s_s.html">AlgoritmoLZSS</a>;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">import</span> java.io.File;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">import</span> java.io.IOException;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">import</span> java.nio.file.Files;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">import</span> <span class="keyword">static</span> org.junit.Assert.*;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">import</span> org.junit.Before;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">import</span> org.junit.Test;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classcompresor_1_1tests_1_1lzss_test.html">   14</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classcompresor_1_1tests_1_1lzss_test.html">lzssTest</a> {</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_s_s.html">AlgoritmoLZSS</a> lzss;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    @Before</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classcompresor_1_1tests_1_1lzss_test.html#aca45260af10403783dc79800061401c3">   19</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classcompresor_1_1tests_1_1lzss_test.html#aca45260af10403783dc79800061401c3">before</a>() {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        lzss = <span class="keyword">new</span> <a class="code" href="classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_s_s.html">AlgoritmoLZSS</a>();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    @Test</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classcompresor_1_1tests_1_1lzss_test.html#a812bb9b1368456459ee210e8c3a8145b">   24</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classcompresor_1_1tests_1_1lzss_test.html#a812bb9b1368456459ee210e8c3a8145b">testComprimirArchivoPequeño</a>() {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        System.out.println(<span class="stringliteral">&quot;Comprimiendo 6 bytes&quot;</span>);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        byte[] data = {0, 1, 2, 3, 4, 5};</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        byte[] dataComprimida = lzss.<a class="code" href="classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_s_s.html#a2ec5f22ea4b47bf7249a79a450ac92b5">comprimir</a>(data);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        byte[] dataDescomprimida = lzss.<a class="code" href="classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_s_s.html#a1df95a218d41459da412b4ff10919442">descomprimir</a>(dataComprimida);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        assertArrayEquals(data, dataDescomprimida);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    @Test</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classcompresor_1_1tests_1_1lzss_test.html#a818883f312698746361772d05da59dc7">   33</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classcompresor_1_1tests_1_1lzss_test.html#a818883f312698746361772d05da59dc7">testComprimirArchivoMediano</a>() throws IOException {</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        System.out.println(<span class="stringliteral">&quot;Comprimiendo archivo de 148 kB&quot;</span>);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        File file = <span class="keyword">new</span> File(<span class="stringliteral">&quot;src/compresor/tests/resources/alice29.txt&quot;</span>);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        byte[] data = Files.readAllBytes(file.toPath());</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        byte[] dataComprimida = lzss.<a class="code" href="classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_s_s.html#a2ec5f22ea4b47bf7249a79a450ac92b5">comprimir</a>(data);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        byte[] dataDescomprimida = lzss.<a class="code" href="classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_s_s.html#a1df95a218d41459da412b4ff10919442">descomprimir</a>(dataComprimida);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        assertArrayEquals(data, dataDescomprimida);</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    @Test</div><div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="classcompresor_1_1tests_1_1lzss_test.html#a3a9cca52a06182c95fd8e81335d56454">   43</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classcompresor_1_1tests_1_1lzss_test.html#a3a9cca52a06182c95fd8e81335d56454">testComprimirArchivoGrande</a>() throws IOException {</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        System.out.println(<span class="stringliteral">&quot;Comprimiendo archivo de 5.2 MB&quot;</span>);</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        File file = <span class="keyword">new</span> File(<span class="stringliteral">&quot;src/compresor/tests/resources/shakespeare.txt&quot;</span>);</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        byte[] data = Files.readAllBytes(file.toPath());</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        byte[] dataComprimida = lzss.<a class="code" href="classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_s_s.html#a2ec5f22ea4b47bf7249a79a450ac92b5">comprimir</a>(data);</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        byte[] dataDescomprimida = lzss.<a class="code" href="classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_s_s.html#a1df95a218d41459da412b4ff10919442">descomprimir</a>(dataComprimida);</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        assertArrayEquals(data, dataDescomprimida);</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div><div class="ttc" id="namespacecompresor_html"><div class="ttname"><a href="namespacecompresor.html">compresor</a></div></div>
+<div class="ttc" id="classcompresor_1_1tests_1_1lzss_test_html_a812bb9b1368456459ee210e8c3a8145b"><div class="ttname"><a href="classcompresor_1_1tests_1_1lzss_test.html#a812bb9b1368456459ee210e8c3a8145b">compresor.tests.lzssTest.testComprimirArchivoPequeño</a></div><div class="ttdeci">void testComprimirArchivoPequeño()</div><div class="ttdef"><b>Definition:</b> <a href="lzss_test_8java_source.html#l00024">lzssTest.java:24</a></div></div>
+<div class="ttc" id="classcompresor_1_1tests_1_1lzss_test_html_a818883f312698746361772d05da59dc7"><div class="ttname"><a href="classcompresor_1_1tests_1_1lzss_test.html#a818883f312698746361772d05da59dc7">compresor.tests.lzssTest.testComprimirArchivoMediano</a></div><div class="ttdeci">void testComprimirArchivoMediano()</div><div class="ttdef"><b>Definition:</b> <a href="lzss_test_8java_source.html#l00033">lzssTest.java:33</a></div></div>
+<div class="ttc" id="namespacecompresor_1_1dominio_1_1algoritmo_html"><div class="ttname"><a href="namespacecompresor_1_1dominio_1_1algoritmo.html">compresor.dominio.algoritmo</a></div><div class="ttdef"><b>Definition:</b> <a href="_algoritmo_8java_source.html#l00007">Algoritmo.java:7</a></div></div>
+<div class="ttc" id="classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_s_s_html_a1df95a218d41459da412b4ff10919442"><div class="ttname"><a href="classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_s_s.html#a1df95a218d41459da412b4ff10919442">compresor.dominio.algoritmo.AlgoritmoLZSS.descomprimir</a></div><div class="ttdeci">byte [] descomprimir(byte[] entrada)</div><div class="ttdoc">Descompresión de un archivo comprimido mediante LZSS. </div><div class="ttdef"><b>Definition:</b> <a href="_algoritmo_l_z_s_s_8java_source.html#l00160">AlgoritmoLZSS.java:160</a></div></div>
+<div class="ttc" id="classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_s_s_html"><div class="ttname"><a href="classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_s_s.html">compresor.dominio.algoritmo.AlgoritmoLZSS</a></div><div class="ttdef"><b>Definition:</b> <a href="_algoritmo_l_z_s_s_8java_source.html#l00012">AlgoritmoLZSS.java:12</a></div></div>
+<div class="ttc" id="classcompresor_1_1tests_1_1lzss_test_html_aca45260af10403783dc79800061401c3"><div class="ttname"><a href="classcompresor_1_1tests_1_1lzss_test.html#aca45260af10403783dc79800061401c3">compresor.tests.lzssTest.before</a></div><div class="ttdeci">void before()</div><div class="ttdef"><b>Definition:</b> <a href="lzss_test_8java_source.html#l00019">lzssTest.java:19</a></div></div>
+<div class="ttc" id="classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_s_s_html_a2ec5f22ea4b47bf7249a79a450ac92b5"><div class="ttname"><a href="classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_s_s.html#a2ec5f22ea4b47bf7249a79a450ac92b5">compresor.dominio.algoritmo.AlgoritmoLZSS.comprimir</a></div><div class="ttdeci">byte [] comprimir(byte[] entrada)</div><div class="ttdoc">Compresión aplicando el algoritmo LZSS. </div><div class="ttdef"><b>Definition:</b> <a href="_algoritmo_l_z_s_s_8java_source.html#l00056">AlgoritmoLZSS.java:56</a></div></div>
+<div class="ttc" id="namespacecompresor_1_1dominio_html"><div class="ttname"><a href="namespacecompresor_1_1dominio.html">compresor.dominio</a></div></div>
+<div class="ttc" id="classcompresor_1_1tests_1_1lzss_test_html"><div class="ttname"><a href="classcompresor_1_1tests_1_1lzss_test.html">compresor.tests.lzssTest</a></div><div class="ttdef"><b>Definition:</b> <a href="lzss_test_8java_source.html#l00014">lzssTest.java:14</a></div></div>
+<div class="ttc" id="classcompresor_1_1tests_1_1lzss_test_html_a3a9cca52a06182c95fd8e81335d56454"><div class="ttname"><a href="classcompresor_1_1tests_1_1lzss_test.html#a3a9cca52a06182c95fd8e81335d56454">compresor.tests.lzssTest.testComprimirArchivoGrande</a></div><div class="ttdeci">void testComprimirArchivoGrande()</div><div class="ttdef"><b>Definition:</b> <a href="lzss_test_8java_source.html#l00043">lzssTest.java:43</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

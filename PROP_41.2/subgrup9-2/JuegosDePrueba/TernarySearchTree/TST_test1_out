@@ -1,0 +1,23 @@
+palabra: a
+search: true
+getId: 1
+
+palabra: b
+search: true
+getId: 2
+
+palabra: c
+search: true
+getId: 3
+
+palabra: primero
+search: true
+getId: 1
+
+palabra: segundo
+search: true
+getId: 2
+
+palabra: tercero
+search: true
+getId: 2

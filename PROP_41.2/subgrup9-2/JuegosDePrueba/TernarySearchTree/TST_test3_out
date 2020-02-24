@@ -1,0 +1,31 @@
+palabra: 0
+search: true
+getId: 2
+
+palabra: 1
+search: true
+getId: 2
+
+palabra: 2
+search: true
+getId: 1
+
+palabra: 3
+search: true
+getId: 1
+
+palabra: nada
+search: false
+getID: ERROR
+
+palabra: 0a
+search: true
+getId: 0
+
+palabra: 1b
+search: true
+getId: 0
+
+palabra: 2c
+search: true
+getId: 0

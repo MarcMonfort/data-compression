@@ -1,0 +1,31 @@
+palabra: nada
+search: false
+getID: ERROR
+
+palabra: esternocleidomastoideo
+search: true
+getId: 123456789
+
+palabra: nada
+search: false
+getID: ERROR
+
+palabra: Alfadenobetaparahidroxifenilpropanoicotirosina
+search: true
+getId: 987654321
+
+palabra: nada
+search: false
+getID: ERROR
+
+palabra: Pentakismyriohexakisquivoletrascosiohexcontapentagonalis
+search: true
+getId: 1
+
+palabra: Hexakosioihexekontahexafobia
+search: true
+getId: 2
+
+palabra: Hipopotomonstrosesquipedaliofobia
+search: true
+getId: 3

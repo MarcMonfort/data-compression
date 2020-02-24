@@ -1,0 +1,2 @@
+2
+./textoPruebas/alice29.prop

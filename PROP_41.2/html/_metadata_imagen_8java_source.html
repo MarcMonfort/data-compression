@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Compresor_PROP_41.2: Fichero Fuente MetadataImagen.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Compresor_PROP_41.2
+   &#160;<span id="projectnumber">17-11-2019</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_192d4298d62a342c9564c57cab9b3ce6.html">compresor</a></li><li class="navelem"><a class="el" href="dir_f9f84603fe0df2891abae5da3a1326b3.html">dominio</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">MetadataImagen.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_metadata_imagen_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">package </span>compresor.dominio;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">import</span> java.nio.ByteBuffer;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classcompresor_1_1dominio_1_1_metadata_imagen.html">    9</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classcompresor_1_1dominio_1_1_metadata_imagen.html">MetadataImagen</a> <span class="keyword">extends</span> <a class="code" href="classcompresor_1_1dominio_1_1_metadata.html">Metadata</a> {</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="comment">/* Las imágenes deberán guardar información extra sobre el ancho y alto de la imagen */</span></div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#a33a897de8dbc482453dacba2b4dc1e1f">   12</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">int</span> <a class="code" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#a33a897de8dbc482453dacba2b4dc1e1f">ancho</a>;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#af8191ce89d4391c3f82a790153c72d8f">   13</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">int</span> <a class="code" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#af8191ce89d4391c3f82a790153c72d8f">alto</a>;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#adb4d8a8792371a10a6dc8468f63cdbc3">   15</a></span>&#160;    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keywordtype">int</span> <a class="code" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#adb4d8a8792371a10a6dc8468f63cdbc3">tamañoMetadata</a> = Integer.BYTES * 2;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#a4d2b17e3fec2abc9e2c7cafeca95ffde">   17</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#a4d2b17e3fec2abc9e2c7cafeca95ffde">MetadataImagen</a>(<a class="code" href="enumcompresor_1_1dominio_1_1_algoritmo_enum.html">AlgoritmoEnum</a> <a class="code" href="classcompresor_1_1dominio_1_1_metadata.html#a530863caab76d494235c61ac3b7ff28d">algoritmoUsado</a>, <a class="code" href="classcompresor_1_1dominio_1_1_estadistica.html">Estadistica</a> <a class="code" href="classcompresor_1_1dominio_1_1_metadata.html#a914e002e62a6d569abfa17badbfb55c8">estadistica</a>, String <a class="code" href="classcompresor_1_1dominio_1_1_metadata.html#a509a6c380feddfd3c8177114164cec90">nombre</a>, <span class="keywordtype">int</span> ancho, <span class="keywordtype">int</span> alto) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        super(algoritmoUsado, estadistica, nombre);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        this.ancho = <a class="code" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#a33a897de8dbc482453dacba2b4dc1e1f">ancho</a>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        this.alto = <a class="code" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#af8191ce89d4391c3f82a790153c72d8f">alto</a>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#a5a4412ad73430cabd8fcb7cddee0e58f">   29</a></span>&#160;    <span class="keyword">public</span> byte[] <a class="code" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#a5a4412ad73430cabd8fcb7cddee0e58f">getMetadataInBytes</a>() {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        byte[] metadataOriginal = super.getMetadataInBytes();</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        byte[] metadataFinal = <span class="keyword">new</span> byte[metadataOriginal.length + <a class="code" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#adb4d8a8792371a10a6dc8468f63cdbc3">tamañoMetadata</a>];</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        System.arraycopy(metadataOriginal, 0, metadataFinal, 0, metadataOriginal.length);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        byte[] anchoEnBytes = ByteBuffer.allocate(4).putInt(this.ancho).array();</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        System.arraycopy(anchoEnBytes, 0, metadataFinal, metadataOriginal.length, Integer.BYTES);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        byte[] altoEnBytes = ByteBuffer.allocate(4).putInt(this.alto).array();</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        System.arraycopy(altoEnBytes, 0, metadataFinal, metadataOriginal.length + Integer.BYTES, Integer.BYTES);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">return</span> metadataFinal;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#af7744d10c7cca5500290b013e22e8b41">   42</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#af7744d10c7cca5500290b013e22e8b41">getAncho</a>() {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">return</span> this.<a class="code" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#a33a897de8dbc482453dacba2b4dc1e1f">ancho</a>;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#a23945f0ec8137acde6040277814574c4">   46</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#a23945f0ec8137acde6040277814574c4">getAlto</a>() {</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> this.<a class="code" href="classcompresor_1_1dominio_1_1_metadata_imagen.html#af8191ce89d4391c3f82a790153c72d8f">alto</a>;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div><div class="ttc" id="classcompresor_1_1dominio_1_1_metadata_imagen_html_adb4d8a8792371a10a6dc8468f63cdbc3"><div class="ttname"><a href="classcompresor_1_1dominio_1_1_metadata_imagen.html#adb4d8a8792371a10a6dc8468f63cdbc3">compresor.dominio.MetadataImagen.tamañoMetadata</a></div><div class="ttdeci">static final int tamañoMetadata</div><div class="ttdef"><b>Definition:</b> <a href="_metadata_imagen_8java_source.html#l00015">MetadataImagen.java:15</a></div></div>
+<div class="ttc" id="classcompresor_1_1dominio_1_1_metadata_imagen_html_a33a897de8dbc482453dacba2b4dc1e1f"><div class="ttname"><a href="classcompresor_1_1dominio_1_1_metadata_imagen.html#a33a897de8dbc482453dacba2b4dc1e1f">compresor.dominio.MetadataImagen.ancho</a></div><div class="ttdeci">int ancho</div><div class="ttdef"><b>Definition:</b> <a href="_metadata_imagen_8java_source.html#l00012">MetadataImagen.java:12</a></div></div>
+<div class="ttc" id="classcompresor_1_1dominio_1_1_metadata_imagen_html_af7744d10c7cca5500290b013e22e8b41"><div class="ttname"><a href="classcompresor_1_1dominio_1_1_metadata_imagen.html#af7744d10c7cca5500290b013e22e8b41">compresor.dominio.MetadataImagen.getAncho</a></div><div class="ttdeci">int getAncho()</div><div class="ttdef"><b>Definition:</b> <a href="_metadata_imagen_8java_source.html#l00042">MetadataImagen.java:42</a></div></div>
+<div class="ttc" id="classcompresor_1_1dominio_1_1_estadistica_html"><div class="ttname"><a href="classcompresor_1_1dominio_1_1_estadistica.html">compresor.dominio.Estadistica</a></div><div class="ttdoc">Estructura y métodos de las estadísticas de compresión/descompresión de los ficheros por parte del pr...</div><div class="ttdef"><b>Definition:</b> <a href="_estadistica_8java_source.html#l00017">Estadistica.java:17</a></div></div>
+<div class="ttc" id="classcompresor_1_1dominio_1_1_metadata_html"><div class="ttname"><a href="classcompresor_1_1dominio_1_1_metadata.html">compresor.dominio.Metadata</a></div><div class="ttdoc">Estructura y métodos de la metadata de un archivo. </div><div class="ttdef"><b>Definition:</b> <a href="_metadata_8java_source.html#l00016">Metadata.java:16</a></div></div>
+<div class="ttc" id="classcompresor_1_1dominio_1_1_metadata_imagen_html"><div class="ttname"><a href="classcompresor_1_1dominio_1_1_metadata_imagen.html">compresor.dominio.MetadataImagen</a></div><div class="ttdef"><b>Definition:</b> <a href="_metadata_imagen_8java_source.html#l00009">MetadataImagen.java:9</a></div></div>
+<div class="ttc" id="classcompresor_1_1dominio_1_1_metadata_html_a509a6c380feddfd3c8177114164cec90"><div class="ttname"><a href="classcompresor_1_1dominio_1_1_metadata.html#a509a6c380feddfd3c8177114164cec90">compresor.dominio.Metadata.nombre</a></div><div class="ttdeci">String nombre</div><div class="ttdef"><b>Definition:</b> <a href="_metadata_8java_source.html#l00020">Metadata.java:20</a></div></div>
+<div class="ttc" id="enumcompresor_1_1dominio_1_1_algoritmo_enum_html"><div class="ttname"><a href="enumcompresor_1_1dominio_1_1_algoritmo_enum.html">compresor.dominio.AlgoritmoEnum</a></div><div class="ttdoc">Contiene, ordenados, los algoritmos de compresión implementados en el programa 0: LZ78 1: LZSS 2: LZW...</div><div class="ttdef"><b>Definition:</b> <a href="_algoritmo_enum_8java_source.html#l00017">AlgoritmoEnum.java:17</a></div></div>
+<div class="ttc" id="classcompresor_1_1dominio_1_1_metadata_imagen_html_a23945f0ec8137acde6040277814574c4"><div class="ttname"><a href="classcompresor_1_1dominio_1_1_metadata_imagen.html#a23945f0ec8137acde6040277814574c4">compresor.dominio.MetadataImagen.getAlto</a></div><div class="ttdeci">int getAlto()</div><div class="ttdef"><b>Definition:</b> <a href="_metadata_imagen_8java_source.html#l00046">MetadataImagen.java:46</a></div></div>
+<div class="ttc" id="classcompresor_1_1dominio_1_1_metadata_html_a914e002e62a6d569abfa17badbfb55c8"><div class="ttname"><a href="classcompresor_1_1dominio_1_1_metadata.html#a914e002e62a6d569abfa17badbfb55c8">compresor.dominio.Metadata.estadistica</a></div><div class="ttdeci">Estadistica estadistica</div><div class="ttdef"><b>Definition:</b> <a href="_metadata_8java_source.html#l00019">Metadata.java:19</a></div></div>
+<div class="ttc" id="classcompresor_1_1dominio_1_1_metadata_imagen_html_a5a4412ad73430cabd8fcb7cddee0e58f"><div class="ttname"><a href="classcompresor_1_1dominio_1_1_metadata_imagen.html#a5a4412ad73430cabd8fcb7cddee0e58f">compresor.dominio.MetadataImagen.getMetadataInBytes</a></div><div class="ttdeci">byte [] getMetadataInBytes()</div><div class="ttdoc">Utiliza los bytes de la clase padre y le añade el ancho y alto. </div><div class="ttdef"><b>Definition:</b> <a href="_metadata_imagen_8java_source.html#l00029">MetadataImagen.java:29</a></div></div>
+<div class="ttc" id="classcompresor_1_1dominio_1_1_metadata_imagen_html_af8191ce89d4391c3f82a790153c72d8f"><div class="ttname"><a href="classcompresor_1_1dominio_1_1_metadata_imagen.html#af8191ce89d4391c3f82a790153c72d8f">compresor.dominio.MetadataImagen.alto</a></div><div class="ttdeci">int alto</div><div class="ttdef"><b>Definition:</b> <a href="_metadata_imagen_8java_source.html#l00013">MetadataImagen.java:13</a></div></div>
+<div class="ttc" id="classcompresor_1_1dominio_1_1_metadata_imagen_html_a4d2b17e3fec2abc9e2c7cafeca95ffde"><div class="ttname"><a href="classcompresor_1_1dominio_1_1_metadata_imagen.html#a4d2b17e3fec2abc9e2c7cafeca95ffde">compresor.dominio.MetadataImagen.MetadataImagen</a></div><div class="ttdeci">MetadataImagen(AlgoritmoEnum algoritmoUsado, Estadistica estadistica, String nombre, int ancho, int alto)</div><div class="ttdef"><b>Definition:</b> <a href="_metadata_imagen_8java_source.html#l00017">MetadataImagen.java:17</a></div></div>
+<div class="ttc" id="classcompresor_1_1dominio_1_1_metadata_html_a530863caab76d494235c61ac3b7ff28d"><div class="ttname"><a href="classcompresor_1_1dominio_1_1_metadata.html#a530863caab76d494235c61ac3b7ff28d">compresor.dominio.Metadata.algoritmoUsado</a></div><div class="ttdeci">AlgoritmoEnum algoritmoUsado</div><div class="ttdef"><b>Definition:</b> <a href="_metadata_8java_source.html#l00018">Metadata.java:18</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

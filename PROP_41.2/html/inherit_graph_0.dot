@@ -1,0 +1,15 @@
+digraph "Representación gráfica de la clase"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="compresor.dominio.algoritmo.\lAlgoritmo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacecompresor_1_1dominio_1_1algoritmo_1_1_algoritmo.html",tooltip="Funciones básicas de los algoritmos de compresión. "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="compresor.dominio.algoritmo.\lAlgoritmoJPEG",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_j_p_e_g.html",tooltip="Compresión/descompresión mediante LZ78. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="compresor.dominio.algoritmo.\lAlgoritmoLZ78",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z78.html",tooltip="Compresión/descompresión mediante LZ78. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="compresor.dominio.algoritmo.\lAlgoritmoLZSS",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_s_s.html"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="compresor.dominio.algoritmo.\lAlgoritmoLZW",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_w.html",tooltip="Compresión/descompresión mediante LZW. "];
+}

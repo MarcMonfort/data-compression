@@ -1,0 +1,9 @@
+digraph "Representación gráfica de la clase"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="compresor.persistencia.Archivo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcompresor_1_1persistencia_1_1_archivo.html",tooltip="Estructura y métodos de un archivo. "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="compresor.persistencia.Comprimido",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcompresor_1_1persistencia_1_1_comprimido.html",tooltip="Estructura y métodos de un archivo comprimido. "];
+}

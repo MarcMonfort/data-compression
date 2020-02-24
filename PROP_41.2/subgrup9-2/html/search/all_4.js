@@ -1,0 +1,9 @@
+var searchData=
+[
+  ['ejecutaralgoritmo',['ejecutarAlgoritmo',['../classcompresor_1_1dominio_1_1_controlador_compresor.html#a8fd1a889c6c17c842059e9a55c7a9aa8',1,'compresor.dominio.ControladorCompresor.ejecutarAlgoritmo()'],['../classcompresor_1_1dominio_1_1_controlador_descompresor.html#a832aa772dde262c84a439d3e0d611527',1,'compresor.dominio.ControladorDescompresor.ejecutarAlgoritmo()']]],
+  ['escribirestadisticas',['escribirEstadisticas',['../classcompresor_1_1dominio_1_1_controlador_estadisticas.html#a9b286d5e7a0245e8103a5219505797be',1,'compresor::dominio::ControladorEstadisticas']]],
+  ['estadistica',['Estadistica',['../classcompresor_1_1persistencia_1_1_estadistica.html',1,'compresor.persistencia.Estadistica'],['../classcompresor_1_1persistencia_1_1_estadistica.html#a3312ec51f860de3ab2c8275dc9cf17d0',1,'compresor.persistencia.Estadistica.Estadistica()'],['../classcompresor_1_1dominio_1_1_controlador_compresor.html#a48ca695cb4e5cdf1d94d3bfcd3c4882e',1,'compresor.dominio.ControladorCompresor.estadistica()'],['../classcompresor_1_1dominio_1_1_controlador_descompresor.html#aa9c2244767da4a8eeeb02b56ef9c9bf3',1,'compresor.dominio.ControladorDescompresor.estadistica()'],['../classcompresor_1_1persistencia_1_1_metadata.html#aa9de35eebfaad3d57fd6ffe0c3fa75f3',1,'compresor.persistencia.Metadata.estadistica()']]],
+  ['estadistica_2ejava',['Estadistica.java',['../_estadistica_8java.html',1,'']]],
+  ['estadisticas',['ESTADISTICAS',['../enumcompresor_1_1_main_1_1_opciones_menu.html#adf0139fd446f7793312bc9b8b5d0b5a1',1,'compresor::Main::OpcionesMenu']]],
+  ['extension',['extension',['../classcompresor_1_1persistencia_1_1_archivo.html#ad42a4a6da198d67471360b568f859bfd',1,'compresor.persistencia.Archivo.extension()'],['../classcompresor_1_1persistencia_1_1_metadata.html#af3930cb87da445f68d3ab834c839c21e',1,'compresor.persistencia.Metadata.extension()']]]
+];

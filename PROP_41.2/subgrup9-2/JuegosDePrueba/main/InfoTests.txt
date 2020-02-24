@@ -1,0 +1,26 @@
+Prova 1
+Descripció: FITXER TEXT GRAN
+Objectius: provar els algorismes de compressió i descompressió de textos amb un
+fitxer gran
+Entrada: nom del fitxer
+Sortida: estadístiques de la compressió/descompressió
+Efectes secundaris: creació del corresponent fitxer comprimit / descomprimit
+
+
+Prova 2
+Descripció: FITXER IMATGE PETIT
+Objectius: provar l’algorisme de compressió i descompressió d’imatges amb un fitxer
+gran
+Entrada: nom del fitxer
+Sortida: estadístiques de la compressió/descompressió
+Efectes secundaris: creació del corresponent fitxer comprimit / descomprimit
+
+
+Prova 3
+Descripció: CARPETA amb poc contingut
+Objectius: provar els algorismes de compressió i descompressió de carpetes amb una
+carpeta amb poc contingut
+Entrada: nom de la carpeta
+Sortida: estadístiques de la compressió/descompressió
+Efectes secundaris: creació de la corresponent carpeta comprimida / descomprimida
+Completeu la casuística amb totes les combinacions que trobeu rellevants.

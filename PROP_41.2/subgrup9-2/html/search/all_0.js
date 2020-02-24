@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['algoritmo',['Algoritmo',['../interfacecompresor_1_1dominio_1_1algoritmo_1_1_algoritmo.html',1,'compresor::dominio::algoritmo']]],
+  ['algoritmo_2ejava',['Algoritmo.java',['../_algoritmo_8java.html',1,'']]],
+  ['algoritmoenum',['AlgoritmoEnum',['../enumcompresor_1_1persistencia_1_1_algoritmo_enum.html',1,'compresor::persistencia']]],
+  ['algoritmoenum_2ejava',['AlgoritmoEnum.java',['../_algoritmo_enum_8java.html',1,'']]],
+  ['algoritmojpeg',['AlgoritmoJPEG',['../classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_j_p_e_g.html',1,'compresor::dominio::algoritmo']]],
+  ['algoritmojpeg_2ejava',['AlgoritmoJPEG.java',['../_algoritmo_j_p_e_g_8java.html',1,'']]],
+  ['algoritmolz78',['AlgoritmoLZ78',['../classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z78.html',1,'compresor::dominio::algoritmo']]],
+  ['algoritmolz78_2ejava',['AlgoritmoLZ78.java',['../_algoritmo_l_z78_8java.html',1,'']]],
+  ['algoritmolzss',['AlgoritmoLZSS',['../classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_s_s.html',1,'compresor::dominio::algoritmo']]],
+  ['algoritmolzss_2ejava',['AlgoritmoLZSS.java',['../_algoritmo_l_z_s_s_8java.html',1,'']]],
+  ['algoritmolzw',['AlgoritmoLZW',['../classcompresor_1_1dominio_1_1algoritmo_1_1_algoritmo_l_z_w.html',1,'compresor::dominio::algoritmo']]],
+  ['algoritmolzw_2ejava',['AlgoritmoLZW.java',['../_algoritmo_l_z_w_8java.html',1,'']]],
+  ['algoritmosasstring',['algoritmosAsString',['../classcompresor_1_1_main.html#a89d0568209c6392ef4f8e1bd7a4a3c8a',1,'compresor::Main']]],
+  ['algoritmousado',['algoritmoUsado',['../classcompresor_1_1persistencia_1_1_metadata.html#a7b63c9da5e07860ad391d4ba608d9991',1,'compresor::persistencia::Metadata']]],
+  ['archivo',['Archivo',['../classcompresor_1_1persistencia_1_1_archivo.html',1,'compresor.persistencia.Archivo'],['../classcompresor_1_1persistencia_1_1_archivo.html#a1c6729c03918c8b64df5379700cd5339',1,'compresor.persistencia.Archivo.Archivo()']]],
+  ['archivo_2ejava',['Archivo.java',['../_archivo_8java.html',1,'']]],
+  ['automÁtico',['AUTOMÁTICO',['../enumcompresor_1_1_main_1_1_opciones_algoritmo.html#a2353b156fbbe5aa99bf5adb19ac35e01',1,'compresor::Main::OpcionesAlgoritmo']]]
+];

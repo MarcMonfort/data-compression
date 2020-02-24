@@ -1,0 +1,611 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Compresor_PROP_41.2: Referencia de la Clase compresor.utils.DCT</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Compresor_PROP_41.2
+   &#160;<span id="projectnumber">17-11-2019</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacecompresor.html">compresor</a></li><li class="navelem"><a class="el" href="namespacecompresor_1_1utils.html">utils</a></li><li class="navelem"><a class="el" href="classcompresor_1_1utils_1_1_d_c_t.html">DCT</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pri-static-methods">Métodos privados estáticos</a> &#124;
+<a href="#pri-attribs">Atributos privados</a> &#124;
+<a href="#pri-static-attribs">Atributos privados estáticos</a> &#124;
+<a href="classcompresor_1_1utils_1_1_d_c_t-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase compresor.utils.DCT</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:afc02c3621052674aaad57e24d9dcf736"><td class="memItemLeft" align="right" valign="top">static double [][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompresor_1_1utils_1_1_d_c_t.html#afc02c3621052674aaad57e24d9dcf736">applyDCT</a> (int MCU[][])</td></tr>
+<tr class="memdesc:afc02c3621052674aaad57e24d9dcf736"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aplica la transformación discreta del coseno a un bloque 8x8. Dentro se hace la cuantización.  <a href="#afc02c3621052674aaad57e24d9dcf736">Más...</a><br /></td></tr>
+<tr class="separator:afc02c3621052674aaad57e24d9dcf736"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acea26a425692cc4fc142815623625aed"><td class="memItemLeft" align="right" valign="top">static int [][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompresor_1_1utils_1_1_d_c_t.html#acea26a425692cc4fc142815623625aed">applyIDCT</a> (int DCTblock[][])</td></tr>
+<tr class="memdesc:acea26a425692cc4fc142815623625aed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aplica la inversa de la transformación discreta del coseno a un bloque 8x8. Dentro se hace la descuantización.  <a href="#acea26a425692cc4fc142815623625aed">Más...</a><br /></td></tr>
+<tr class="separator:acea26a425692cc4fc142815623625aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d92975a51e9fbed803f88644694d8d8"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompresor_1_1utils_1_1_d_c_t.html#a3d92975a51e9fbed803f88644694d8d8">unquantization</a> (int dctValue, int fila, int columna)</td></tr>
+<tr class="memdesc:a3d92975a51e9fbed803f88644694d8d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Descuantifica un valor.  <a href="#a3d92975a51e9fbed803f88644694d8d8">Más...</a><br /></td></tr>
+<tr class="separator:a3d92975a51e9fbed803f88644694d8d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4b5b69068b21db2b49a0c7775f389ed"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompresor_1_1utils_1_1_d_c_t.html#ae4b5b69068b21db2b49a0c7775f389ed">quantization</a> (double dctValue, int fila, int columna)</td></tr>
+<tr class="memdesc:ae4b5b69068b21db2b49a0c7775f389ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Divide los valores de la discreta del coseno para cuantificarlos (depende de la calidad. Se ha utilizado 50%)  <a href="#ae4b5b69068b21db2b49a0c7775f389ed">Más...</a><br /></td></tr>
+<tr class="separator:ae4b5b69068b21db2b49a0c7775f389ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59470f12472924e9e2d3f1800140f2a8"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompresor_1_1utils_1_1_d_c_t.html#a59470f12472924e9e2d3f1800140f2a8">toZigZagMatrix</a> (double[][] bloque)</td></tr>
+<tr class="memdesc:a59470f12472924e9e2d3f1800140f2a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recorre una matriz bidimensional en zigzag y guarda los valores en una lista.  <a href="#a59470f12472924e9e2d3f1800140f2a8">Más...</a><br /></td></tr>
+<tr class="separator:a59470f12472924e9e2d3f1800140f2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0277582d83d68b81e316446196496368"><td class="memItemLeft" align="right" valign="top">static int [][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompresor_1_1utils_1_1_d_c_t.html#a0277582d83d68b81e316446196496368">inverseZigZag</a> (int[] vector)</td></tr>
+<tr class="memdesc:a0277582d83d68b81e316446196496368"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convierte un vector en una matriz 8x8. Si el vector no tiene 64 valores, se rellena con ceros.  <a href="#a0277582d83d68b81e316446196496368">Más...</a><br /></td></tr>
+<tr class="separator:a0277582d83d68b81e316446196496368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Métodos privados estáticos</h2></td></tr>
+<tr class="memitem:a60b054ac761d74f4d7a1de65938cd7ef"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompresor_1_1utils_1_1_d_c_t.html#a60b054ac761d74f4d7a1de65938cd7ef">normalizeValueByShifting</a> (int value)</td></tr>
+<tr class="memdesc:a60b054ac761d74f4d7a1de65938cd7ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aplica un desplazamiento al valor para llevarlo a unos rangos menores representables con un byte.  <a href="#a60b054ac761d74f4d7a1de65938cd7ef">Más...</a><br /></td></tr>
+<tr class="separator:a60b054ac761d74f4d7a1de65938cd7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af903994fb7557b6f18ccef04ea0e9a40"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompresor_1_1utils_1_1_d_c_t.html#af903994fb7557b6f18ccef04ea0e9a40">scaleFactor</a> (int i, int j)</td></tr>
+<tr class="memdesc:af903994fb7557b6f18ccef04ea0e9a40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transformación ortonormal (Vector unitario + ortogonal)  <a href="#af903994fb7557b6f18ccef04ea0e9a40">Más...</a><br /></td></tr>
+<tr class="separator:af903994fb7557b6f18ccef04ea0e9a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atributos privados</h2></td></tr>
+<tr class="memitem:abff04e366c38a9632953c41dd5c04592"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompresor_1_1utils_1_1_d_c_t.html#abff04e366c38a9632953c41dd5c04592">quality</a></td></tr>
+<tr class="separator:abff04e366c38a9632953c41dd5c04592"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Atributos privados estáticos</h2></td></tr>
+<tr class="memitem:a7abc5bc8dad3d5bea401688d6a174768"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompresor_1_1utils_1_1_d_c_t.html#a7abc5bc8dad3d5bea401688d6a174768">factorEnCero</a> = 1 / Math.sqrt(BLOC_SIZE)</td></tr>
+<tr class="separator:a7abc5bc8dad3d5bea401688d6a174768"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a720e9a8e56a961292c7cf63c414f6f0a"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompresor_1_1utils_1_1_d_c_t.html#a720e9a8e56a961292c7cf63c414f6f0a">factorNoEnCero</a> = Math.sqrt(2) / Math.sqrt(BLOC_SIZE)</td></tr>
+<tr class="separator:a720e9a8e56a961292c7cf63c414f6f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3661ddafde32027ce22bd17ff69f924"><td class="memItemLeft" align="right" valign="top">static final int []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompresor_1_1utils_1_1_d_c_t.html#ac3661ddafde32027ce22bd17ff69f924">IDCTcoefficients</a> = {1/(int)Math.sqrt(2.0), 1, 1, 1, 1, 1, 1, 1}</td></tr>
+<tr class="separator:ac3661ddafde32027ce22bd17ff69f924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a874f858ab7eac5bcd8ea83e1a3ecb272"><td class="memItemLeft" align="right" valign="top">static final int [][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompresor_1_1utils_1_1_d_c_t.html#a874f858ab7eac5bcd8ea83e1a3ecb272">quantizationMatrix50</a></td></tr>
+<tr class="separator:a874f858ab7eac5bcd8ea83e1a3ecb272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock">
+<p class="definition">Definición en la línea <a class="el" href="_d_c_t_8java_source.html#l00012">12</a> del archivo <a class="el" href="_d_c_t_8java_source.html">DCT.java</a>.</p>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a id="afc02c3621052674aaad57e24d9dcf736"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc02c3621052674aaad57e24d9dcf736">&#9670;&nbsp;</a></span>applyDCT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static double [][] compresor.utils.DCT.applyDCT </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>MCU</em>[][]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Aplica la transformación discreta del coseno a un bloque 8x8. Dentro se hace la cuantización. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">MCU</td><td>MCU hace referencia a la unidad mínima de información dentro del algoritmo JPEG </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Devuelve el mismo bloque 8x8 transformado y en formato double </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_d_c_t_8java_source.html#l00037">37</a> del archivo <a class="el" href="_d_c_t_8java_source.html">DCT.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                                                   {</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="comment">/* Para hacer más eficiente la transformación, ya directamente se aplica la quantization */</span></div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="comment">// DCT + Q</span></div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordtype">double</span> dct1, sum;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordtype">double</span>[][] dctBlock = <span class="keyword">new</span> <span class="keywordtype">double</span>[BLOC_SIZE][BLOC_SIZE];</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; BLOC_SIZE; i++) {</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; BLOC_SIZE; j++) {</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                <span class="comment">// Sum es el sumatorio de las señales de coseno</span></div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                sum = 0;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> k = 0; k &lt; BLOC_SIZE; k++) {</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> l = 0; l &lt; BLOC_SIZE; l++) {</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                        dct1 = <a class="code" href="classcompresor_1_1utils_1_1_d_c_t.html#a60b054ac761d74f4d7a1de65938cd7ef">normalizeValueByShifting</a>(MCU[k][l]) *</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                                Math.cos((2 * k + 1) * i * Math.PI / (2 * BLOC_SIZE)) *</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                Math.cos((2 * l + 1) * j * Math.PI / (2 * BLOC_SIZE));</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                        sum = sum + dct1;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                    }</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                }</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                <span class="comment">/* scaleFactor para hacer la transformación ortonormal  (Vector unitario + ortogonal) */</span></div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                <span class="comment">// La cuantización se aplica después de DCT</span></div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                dctBlock[i][j] = <a class="code" href="classcompresor_1_1utils_1_1_d_c_t.html#ae4b5b69068b21db2b49a0c7775f389ed">quantization</a>(<a class="code" href="classcompresor_1_1utils_1_1_d_c_t.html#af903994fb7557b6f18ccef04ea0e9a40">scaleFactor</a>(i, j) * sum, i, j);</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            }</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        }</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">return</span> dctBlock;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    }</div><div class="ttc" id="classcompresor_1_1utils_1_1_d_c_t_html_af903994fb7557b6f18ccef04ea0e9a40"><div class="ttname"><a href="classcompresor_1_1utils_1_1_d_c_t.html#af903994fb7557b6f18ccef04ea0e9a40">compresor.utils.DCT.scaleFactor</a></div><div class="ttdeci">static double scaleFactor(int i, int j)</div><div class="ttdoc">Transformación ortonormal (Vector unitario + ortogonal) </div><div class="ttdef"><b>Definition:</b> <a href="_d_c_t_8java_source.html#l00274">DCT.java:274</a></div></div>
+<div class="ttc" id="classcompresor_1_1utils_1_1_d_c_t_html_ae4b5b69068b21db2b49a0c7775f389ed"><div class="ttname"><a href="classcompresor_1_1utils_1_1_d_c_t.html#ae4b5b69068b21db2b49a0c7775f389ed">compresor.utils.DCT.quantization</a></div><div class="ttdeci">static double quantization(double dctValue, int fila, int columna)</div><div class="ttdoc">Divide los valores de la discreta del coseno para cuantificarlos (depende de la calidad. Se ha utilizado 50%) </div><div class="ttdef"><b>Definition:</b> <a href="_d_c_t_8java_source.html#l00106">DCT.java:106</a></div></div>
+<div class="ttc" id="classcompresor_1_1utils_1_1_d_c_t_html_a60b054ac761d74f4d7a1de65938cd7ef"><div class="ttname"><a href="classcompresor_1_1utils_1_1_d_c_t.html#a60b054ac761d74f4d7a1de65938cd7ef">compresor.utils.DCT.normalizeValueByShifting</a></div><div class="ttdeci">static int normalizeValueByShifting(int value)</div><div class="ttdoc">Aplica un desplazamiento al valor para llevarlo a unos rangos menores representables con un byte...</div><div class="ttdef"><b>Definition:</b> <a href="_d_c_t_8java_source.html#l00263">DCT.java:263</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="acea26a425692cc4fc142815623625aed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acea26a425692cc4fc142815623625aed">&#9670;&nbsp;</a></span>applyIDCT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int [][] compresor.utils.DCT.applyIDCT </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>DCTblock</em>[][]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Aplica la inversa de la transformación discreta del coseno a un bloque 8x8. Dentro se hace la descuantización. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">DCTblock</td><td>Bloque 8x8 discretizado y cuantificado </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Devuelve el bloque descuantificado y no discretizado. MCU original </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_d_c_t_8java_source.html#l00069">69</a> del archivo <a class="el" href="_d_c_t_8java_source.html">DCT.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                                                      {</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="comment">/* Antes de pasar la inversa del coseno, se tiene que descuantificar con un producto hadamar de matrices (correspondecia de posiciones) */</span></div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordtype">int</span>[][] mcu = <span class="keyword">new</span> <span class="keywordtype">int</span>[BLOC_SIZE][BLOC_SIZE];</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i &lt; BLOC_SIZE; i++) {</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j=0; j &lt; BLOC_SIZE; j++) {</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                <span class="keywordtype">int</span> sum = 0;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> u=0; u &lt; BLOC_SIZE; u++) {</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> v=0; v &lt; BLOC_SIZE; v++) {</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                        sum+=<a class="code" href="classcompresor_1_1utils_1_1_d_c_t.html#af903994fb7557b6f18ccef04ea0e9a40">scaleFactor</a>(u, v)*Math.cos(((2*i+1)/(2.0*BLOC_SIZE))*u*Math.PI)*Math.cos(((2*j+1)/(2.0*BLOC_SIZE))*v*Math.PI)*(<a class="code" href="classcompresor_1_1utils_1_1_d_c_t.html#a3d92975a51e9fbed803f88644694d8d8">unquantization</a>(DCTblock[u][v], u, v));</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                    }</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                }</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                mcu[i][j]= sum + 127;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            }</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        }</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">return</span> mcu;</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div><div class="ttc" id="classcompresor_1_1utils_1_1_d_c_t_html_a3d92975a51e9fbed803f88644694d8d8"><div class="ttname"><a href="classcompresor_1_1utils_1_1_d_c_t.html#a3d92975a51e9fbed803f88644694d8d8">compresor.utils.DCT.unquantization</a></div><div class="ttdeci">static int unquantization(int dctValue, int fila, int columna)</div><div class="ttdoc">Descuantifica un valor. </div><div class="ttdef"><b>Definition:</b> <a href="_d_c_t_8java_source.html#l00094">DCT.java:94</a></div></div>
+<div class="ttc" id="classcompresor_1_1utils_1_1_d_c_t_html_af903994fb7557b6f18ccef04ea0e9a40"><div class="ttname"><a href="classcompresor_1_1utils_1_1_d_c_t.html#af903994fb7557b6f18ccef04ea0e9a40">compresor.utils.DCT.scaleFactor</a></div><div class="ttdeci">static double scaleFactor(int i, int j)</div><div class="ttdoc">Transformación ortonormal (Vector unitario + ortogonal) </div><div class="ttdef"><b>Definition:</b> <a href="_d_c_t_8java_source.html#l00274">DCT.java:274</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a3d92975a51e9fbed803f88644694d8d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d92975a51e9fbed803f88644694d8d8">&#9670;&nbsp;</a></span>unquantization()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int compresor.utils.DCT.unquantization </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dctValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fila</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>columna</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Descuantifica un valor. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dctValue</td><td>valor a descuantificar </td></tr>
+    <tr><td class="paramname">fila</td><td></td></tr>
+    <tr><td class="paramname">columna</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Devuelve el valor descuantificado </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_d_c_t_8java_source.html#l00094">94</a> del archivo <a class="el" href="_d_c_t_8java_source.html">DCT.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                                                                          {</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">return</span> dctValue*<a class="code" href="classcompresor_1_1utils_1_1_d_c_t.html#a874f858ab7eac5bcd8ea83e1a3ecb272">quantizationMatrix50</a>[fila][columna];</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div><div class="ttc" id="classcompresor_1_1utils_1_1_d_c_t_html_a874f858ab7eac5bcd8ea83e1a3ecb272"><div class="ttname"><a href="classcompresor_1_1utils_1_1_d_c_t.html#a874f858ab7eac5bcd8ea83e1a3ecb272">compresor.utils.DCT.quantizationMatrix50</a></div><div class="ttdeci">static final int [][] quantizationMatrix50</div><div class="ttdef"><b>Definition:</b> <a href="_d_c_t_8java_source.html#l00020">DCT.java:20</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae4b5b69068b21db2b49a0c7775f389ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4b5b69068b21db2b49a0c7775f389ed">&#9670;&nbsp;</a></span>quantization()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static double compresor.utils.DCT.quantization </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dctValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fila</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>columna</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Divide los valores de la discreta del coseno para cuantificarlos (depende de la calidad. Se ha utilizado 50%) </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dctValue</td><td>valor a cuantificar </td></tr>
+    <tr><td class="paramname">fila</td><td></td></tr>
+    <tr><td class="paramname">columna</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Devuelve el valor cuantificado </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_d_c_t_8java_source.html#l00106">106</a> del archivo <a class="el" href="_d_c_t_8java_source.html">DCT.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                                                                              {</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="comment">/* Normalmente depente de la calidad -&gt; Por defecto 50% según el estándar */</span></div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">return</span> Math.round(dctValue/<a class="code" href="classcompresor_1_1utils_1_1_d_c_t.html#a874f858ab7eac5bcd8ea83e1a3ecb272">quantizationMatrix50</a>[fila][columna]);</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div><div class="ttc" id="classcompresor_1_1utils_1_1_d_c_t_html_a874f858ab7eac5bcd8ea83e1a3ecb272"><div class="ttname"><a href="classcompresor_1_1utils_1_1_d_c_t.html#a874f858ab7eac5bcd8ea83e1a3ecb272">compresor.utils.DCT.quantizationMatrix50</a></div><div class="ttdeci">static final int [][] quantizationMatrix50</div><div class="ttdef"><b>Definition:</b> <a href="_d_c_t_8java_source.html#l00020">DCT.java:20</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a59470f12472924e9e2d3f1800140f2a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59470f12472924e9e2d3f1800140f2a8">&#9670;&nbsp;</a></span>toZigZagMatrix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ArrayList&lt;Integer&gt; compresor.utils.DCT.toZigZagMatrix </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>bloque</em>[][]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Recorre una matriz bidimensional en zigzag y guarda los valores en una lista. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bloque</td><td>matriz de 8x8 doubles </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Lista de enteros una vez se ha recorrido la matriz en zigzag </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_d_c_t_8java_source.html#l00117">117</a> del archivo <a class="el" href="_d_c_t_8java_source.html">DCT.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                                                                       {</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordtype">int</span> row = 0, col = 0;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        ArrayList&lt;Integer&gt; secuencia = <span class="keyword">new</span> ArrayList&lt;&gt;();</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordtype">boolean</span> row_inc = <span class="keyword">false</span>;</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="comment">/*</span></div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="comment">            1º recorrido sobre el lado mínimo (len &lt;= Math.min(width, height))</span></div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="comment">            2º recorrido sobre el lado máximo (len &lt;= Math.max(width, height))</span></div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="comment">            pero al ser un cuadrado mínimo y máximo son iguales</span></div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="comment">         */</span></div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> len = 1; len &lt;= BLOC_SIZE; ++len) {</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; len; ++i) {</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                secuencia.add((<span class="keywordtype">int</span>) bloque[row][col]);</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                <span class="keywordflow">if</span> (i + 1 == len)</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                    <span class="keywordflow">break</span>;</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                <span class="comment">/* Diagonal */</span></div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                <span class="keywordflow">if</span> (row_inc) {</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                   ++row;</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                   --col;</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                   --row;</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                   ++col;</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                }</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            }</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            <span class="keywordflow">if</span> (len == BLOC_SIZE)</div><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                <span class="comment">// Hemos llegado a un borde</span></div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                <span class="keywordflow">break</span>;</div><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            <span class="comment">// Actualizamos tras el último incremento</span></div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            <span class="keywordflow">if</span> (row_inc) {</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                ++row;</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                row_inc = <span class="keyword">false</span>;</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                ++col;</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                row_inc = <span class="keyword">true</span>;</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            }</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        }</div><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="comment">/* Tras hacer el primer recorrido actualizamos */</span></div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="keywordflow">if</span> (row == 0) {</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            <span class="keywordflow">if</span> (col == BLOC_SIZE - 1)</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                ++row;</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            <span class="keywordflow">else</span></div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                ++col;</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            row_inc = <span class="keyword">true</span>;</div><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            <span class="keywordflow">if</span> (row == BLOC_SIZE - 1)</div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                ++col;</div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;            <span class="keywordflow">else</span></div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                ++row;</div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;            row_inc = <span class="keyword">false</span>;</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        }</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <span class="comment">// 2º recorrido</span></div><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> len, diag = BLOC_SIZE-1; diag &gt; 0; --diag) {</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;            <span class="keywordflow">if</span> (diag &gt; BLOC_SIZE)</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                len = BLOC_SIZE;</div><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            <span class="keywordflow">else</span></div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                len = diag;</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; len; ++i) {</div><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                secuencia.add((<span class="keywordtype">int</span>) bloque[row][col]);</div><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;</div><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                <span class="keywordflow">if</span> (i + 1 == len)</div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                    <span class="keywordflow">break</span>;</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                <span class="keywordflow">if</span> (row_inc) {</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                    ++row;</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                    --col;</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                    ++col;</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                    --row;</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                }</div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            }</div><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;</div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            <span class="keywordflow">if</span> (row == 0 || col == BLOC_SIZE - 1) {</div><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                <span class="keywordflow">if</span> (col == BLOC_SIZE - 1)</div><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                    ++row;</div><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                <span class="keywordflow">else</span></div><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                    ++col;</div><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;</div><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                row_inc = <span class="keyword">true</span>;</div><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            }</div><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (col == 0 || row == BLOC_SIZE - 1) {</div><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                <span class="keywordflow">if</span> (row == BLOC_SIZE - 1)</div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                    ++col;</div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                <span class="keywordflow">else</span></div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                    ++row;</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                row_inc = <span class="keyword">false</span>;</div><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            }</div><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        }</div><div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        <span class="keywordflow">return</span> secuencia;</div><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a0277582d83d68b81e316446196496368"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0277582d83d68b81e316446196496368">&#9670;&nbsp;</a></span>inverseZigZag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int [][] compresor.utils.DCT.inverseZigZag </td>
+          <td>(</td>
+          <td class="paramtype">int []&#160;</td>
+          <td class="paramname"><em>vector</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convierte un vector en una matriz 8x8. Si el vector no tiene 64 valores, se rellena con ceros. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vector</td><td>Vector de 64 valores </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Devuelve un bloque MCU 8x8 (con Q y <a class="el" href="classcompresor_1_1utils_1_1_d_c_t.html">DCT</a> aplicados) </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_d_c_t_8java_source.html#l00223">223</a> del archivo <a class="el" href="_d_c_t_8java_source.html">DCT.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                                                      {</div><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        <span class="comment">//inverse transform from the zigzag format to the matrix form</span></div><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="keywordtype">int</span>[][] matrix = <span class="keyword">new</span> <span class="keywordtype">int</span>[BLOC_SIZE][BLOC_SIZE] ; <span class="comment">//Init con ceros por defecto en Java</span></div><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;</div><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordtype">int</span> cur_row=0, cur_col=0, cur_index=0;</div><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;</div><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        <span class="keywordflow">while</span> (cur_index &lt; vector.length) {</div><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            <span class="keywordflow">if</span> (cur_row == 0 &amp;&amp; (cur_row+cur_col)%2 == 0 &amp;&amp; cur_col != BLOC_SIZE-1) {</div><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                matrix[cur_row][cur_col++]=vector[cur_index++];</div><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                <span class="comment">//move right at the top</span></div><div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            }</div><div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (cur_row==BLOC_SIZE-1 &amp;&amp; (cur_row+cur_col)%2 != 0 &amp;&amp; cur_col != BLOC_SIZE-1) {</div><div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                matrix[cur_row][cur_col++] = vector[cur_index++];</div><div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                <span class="comment">//move right at the bottom</span></div><div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;            }</div><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (cur_col == 0 &amp;&amp; (cur_row+cur_col)%2 != 0 &amp;&amp; cur_row != BLOC_SIZE-1) {</div><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                matrix[cur_row++][cur_col]=vector[cur_index++];</div><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                <span class="comment">//move down at the left</span></div><div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            }</div><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (cur_col==BLOC_SIZE-1 &amp;&amp; (cur_row+cur_col)%2 == 0 &amp;&amp; cur_row != BLOC_SIZE-1) {</div><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                matrix[cur_row++][cur_col]=vector[cur_index++];</div><div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                <span class="comment">//move down at the right</span></div><div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;            }</div><div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (cur_col != 0 &amp;&amp; cur_row != BLOC_SIZE-1 &amp;&amp; (cur_row+cur_col)%2 != 0) {</div><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;                matrix[cur_row++][cur_col--]=vector[cur_index++];</div><div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                <span class="comment">//move diagonally left down</span></div><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;            }</div><div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (cur_row != 0 &amp;&amp; cur_col != BLOC_SIZE &amp;&amp; (cur_row+cur_col)%2 == 0) {</div><div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                matrix[cur_row--][cur_col++]=vector[cur_index++];</div><div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;              <span class="comment">//move diagonally right up</span></div><div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            }</div><div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        }</div><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        <span class="keywordflow">return</span> matrix;</div><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a60b054ac761d74f4d7a1de65938cd7ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60b054ac761d74f4d7a1de65938cd7ef">&#9670;&nbsp;</a></span>normalizeValueByShifting()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int compresor.utils.DCT.normalizeValueByShifting </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Aplica un desplazamiento al valor para llevarlo a unos rangos menores representables con un byte. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Entero desplazado </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_d_c_t_8java_source.html#l00263">263</a> del archivo <a class="el" href="_d_c_t_8java_source.html">DCT.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                                                           {</div><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <span class="keywordflow">return</span> value - 127;</div><div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="af903994fb7557b6f18ccef04ea0e9a40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af903994fb7557b6f18ccef04ea0e9a40">&#9670;&nbsp;</a></span>scaleFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static double compresor.utils.DCT.scaleFactor </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>j</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Transformación ortonormal (Vector unitario + ortogonal) </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>fila </td></tr>
+    <tr><td class="paramname">j</td><td>columna </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>El factor de escala respecto al vector </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_d_c_t_8java_source.html#l00274">274</a> del archivo <a class="el" href="_d_c_t_8java_source.html">DCT.java</a>.</p>
+<div class="fragment"><div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                                                    {</div><div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        <span class="comment">/* El factor depende de la frecuencia y del número de filas y columnas */</span></div><div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <span class="keywordtype">double</span> factorI = (i == 0) ? <a class="code" href="classcompresor_1_1utils_1_1_d_c_t.html#a7abc5bc8dad3d5bea401688d6a174768">factorEnCero</a>: <a class="code" href="classcompresor_1_1utils_1_1_d_c_t.html#a720e9a8e56a961292c7cf63c414f6f0a">factorNoEnCero</a>;</div><div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        <span class="keywordtype">double</span> factorJ = (j == 0) ? <a class="code" href="classcompresor_1_1utils_1_1_d_c_t.html#a7abc5bc8dad3d5bea401688d6a174768">factorEnCero</a>: <a class="code" href="classcompresor_1_1utils_1_1_d_c_t.html#a720e9a8e56a961292c7cf63c414f6f0a">factorNoEnCero</a>;</div><div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div><div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <span class="keywordflow">return</span> factorI * factorJ;</div><div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    }</div><div class="ttc" id="classcompresor_1_1utils_1_1_d_c_t_html_a7abc5bc8dad3d5bea401688d6a174768"><div class="ttname"><a href="classcompresor_1_1utils_1_1_d_c_t.html#a7abc5bc8dad3d5bea401688d6a174768">compresor.utils.DCT.factorEnCero</a></div><div class="ttdeci">static final double factorEnCero</div><div class="ttdef"><b>Definition:</b> <a href="_d_c_t_8java_source.html#l00016">DCT.java:16</a></div></div>
+<div class="ttc" id="classcompresor_1_1utils_1_1_d_c_t_html_a720e9a8e56a961292c7cf63c414f6f0a"><div class="ttname"><a href="classcompresor_1_1utils_1_1_d_c_t.html#a720e9a8e56a961292c7cf63c414f6f0a">compresor.utils.DCT.factorNoEnCero</a></div><div class="ttdeci">static final double factorNoEnCero</div><div class="ttdef"><b>Definition:</b> <a href="_d_c_t_8java_source.html#l00017">DCT.java:17</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a id="abff04e366c38a9632953c41dd5c04592"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abff04e366c38a9632953c41dd5c04592">&#9670;&nbsp;</a></span>quality</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int compresor.utils.DCT.quality</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_d_c_t_8java_source.html#l00014">14</a> del archivo <a class="el" href="_d_c_t_8java_source.html">DCT.java</a>.</p>
+
+</div>
+</div>
+<a id="a7abc5bc8dad3d5bea401688d6a174768"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7abc5bc8dad3d5bea401688d6a174768">&#9670;&nbsp;</a></span>factorEnCero</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final double compresor.utils.DCT.factorEnCero = 1 / Math.sqrt(BLOC_SIZE)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_d_c_t_8java_source.html#l00016">16</a> del archivo <a class="el" href="_d_c_t_8java_source.html">DCT.java</a>.</p>
+
+</div>
+</div>
+<a id="a720e9a8e56a961292c7cf63c414f6f0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a720e9a8e56a961292c7cf63c414f6f0a">&#9670;&nbsp;</a></span>factorNoEnCero</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final double compresor.utils.DCT.factorNoEnCero = Math.sqrt(2) / Math.sqrt(BLOC_SIZE)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_d_c_t_8java_source.html#l00017">17</a> del archivo <a class="el" href="_d_c_t_8java_source.html">DCT.java</a>.</p>
+
+</div>
+</div>
+<a id="ac3661ddafde32027ce22bd17ff69f924"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3661ddafde32027ce22bd17ff69f924">&#9670;&nbsp;</a></span>IDCTcoefficients</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int [] compresor.utils.DCT.IDCTcoefficients = {1/(int)Math.sqrt(2.0), 1, 1, 1, 1, 1, 1, 1}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_d_c_t_8java_source.html#l00018">18</a> del archivo <a class="el" href="_d_c_t_8java_source.html">DCT.java</a>.</p>
+
+</div>
+</div>
+<a id="a874f858ab7eac5bcd8ea83e1a3ecb272"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a874f858ab7eac5bcd8ea83e1a3ecb272">&#9670;&nbsp;</a></span>quantizationMatrix50</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int [][] compresor.utils.DCT.quantizationMatrix50</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Valor inicial:</b><div class="fragment"><div class="line">= {</div><div class="line">            {16, 11, 10, 16, 24, 40, 51, 61},</div><div class="line">            {12, 12, 14, 19, 26, 58, 60, 55},</div><div class="line">            {14, 13, 16, 24, 40, 57, 69, 56},</div><div class="line">            {14, 17, 22, 29, 51, 87, 80, 62},</div><div class="line">            {18, 22, 37, 56, 68, 109, 103, 77},</div><div class="line">            {24, 45, 55, 64, 81, 104, 113, 92},</div><div class="line">            {49, 64, 78, 87, 103, 121, 120, 101},</div><div class="line">            {72, 92, 95, 98, 112, 100, 103, 99}</div><div class="line">    }</div></div><!-- fragment -->
+<p class="definition">Definición en la línea <a class="el" href="_d_c_t_8java_source.html#l00020">20</a> del archivo <a class="el" href="_d_c_t_8java_source.html">DCT.java</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li><a class="el" href="_d_c_t_8java_source.html">DCT.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

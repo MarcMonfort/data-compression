@@ -1,0 +1,27 @@
+palabra: 0
+search: false
+getID: ERROR
+
+palabra: Ç
+search: true
+getId: 4
+
+palabra: Ñ
+search: true
+getId: 2
+
+palabra: nada
+search: false
+getID: ERROR
+
+palabra: ñ
+search: true
+getId: 1
+
+palabra: ç
+search: true
+getId: 3
+
+palabra: nada2
+search: false
+getID: ERROR

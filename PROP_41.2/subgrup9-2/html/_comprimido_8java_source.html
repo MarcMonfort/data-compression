@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Compresor_PROP_41.2: Fichero Fuente Comprimido.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Compresor_PROP_41.2
+   &#160;<span id="projectnumber">17-11-2019</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_192d4298d62a342c9564c57cab9b3ce6.html">compresor</a></li><li class="navelem"><a class="el" href="dir_4f9e68f6917a9a8d87752620c14243c8.html">persistencia</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Comprimido.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_comprimido_8java.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">package </span>compresor.persistencia;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">import</span> <a class="code" href="namespacecompresor.html">compresor</a>.<a class="code" href="namespacecompresor_1_1utils.html">utils</a>.<a class="code" href="classcompresor_1_1utils_1_1_byte_utils.html">ByteUtils</a>;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classcompresor_1_1persistencia_1_1_comprimido.html">   17</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classcompresor_1_1persistencia_1_1_comprimido.html">Comprimido</a> <span class="keyword">extends</span> <a class="code" href="classcompresor_1_1persistencia_1_1_archivo.html">Archivo</a> {</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classcompresor_1_1persistencia_1_1_comprimido.html#abde717e9ddf7822c9a0f8da3404be84d">   18</a></span>&#160;    <span class="keyword">protected</span> byte[] <a class="code" href="classcompresor_1_1persistencia_1_1_comprimido.html#abde717e9ddf7822c9a0f8da3404be84d">data</a>;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classcompresor_1_1persistencia_1_1_comprimido.html#a61556741b2cdea20e6c49d7f885217af">   25</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classcompresor_1_1persistencia_1_1_comprimido.html#a61556741b2cdea20e6c49d7f885217af">Comprimido</a>(String <a class="code" href="classcompresor_1_1persistencia_1_1_archivo.html#a0786924f3ec2e97d718eb3253ca5cb1b">path</a>) {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        super(path, 0);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classcompresor_1_1persistencia_1_1_comprimido.html#af30aca2e16d1203bf569c10651f1fb47">   33</a></span>&#160;    <span class="keyword">public</span> byte[] <a class="code" href="classcompresor_1_1persistencia_1_1_comprimido.html#af30aca2e16d1203bf569c10651f1fb47">getData</a>() {</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classcompresor_1_1persistencia_1_1_comprimido.html#abde717e9ddf7822c9a0f8da3404be84d">data</a>;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classcompresor_1_1persistencia_1_1_comprimido.html#ad2d2e0a70ab81c65108588c826583faa">   41</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classcompresor_1_1persistencia_1_1_comprimido.html#ad2d2e0a70ab81c65108588c826583faa">setData</a>(byte[] data) {</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        this.data = <a class="code" href="classcompresor_1_1persistencia_1_1_comprimido.html#abde717e9ddf7822c9a0f8da3404be84d">data</a>;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        this.<a class="code" href="classcompresor_1_1persistencia_1_1_archivo.html#aebfa9e86a26e9ba258bf2a430000d4e5">setTamaño</a>(this.data.length);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    @Override</div><div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classcompresor_1_1persistencia_1_1_comprimido.html#a65fd983153c3c61784d46b57b67a662b">   51</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="classcompresor_1_1persistencia_1_1_comprimido.html#a65fd983153c3c61784d46b57b67a662b">toString</a>() {</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        String output = <span class="stringliteral">&quot;Tamaño: &quot;</span> + this.<a class="code" href="classcompresor_1_1persistencia_1_1_archivo.html#a851ac473ac8723a7790bc2a2881d062e">getTamaño</a>() + <span class="stringliteral">&quot;\n\n&quot;</span>;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        output += <a class="code" href="classcompresor_1_1utils_1_1_byte_utils.html">ByteUtils</a>.<a class="code" href="classcompresor_1_1utils_1_1_byte_utils.html#a633730984f855832bcf90b92cea2768d">byteArrayToString</a>(this.data);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">return</span> output;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div><div class="ttc" id="namespacecompresor_html"><div class="ttname"><a href="namespacecompresor.html">compresor</a></div></div>
+<div class="ttc" id="classcompresor_1_1persistencia_1_1_comprimido_html_af30aca2e16d1203bf569c10651f1fb47"><div class="ttname"><a href="classcompresor_1_1persistencia_1_1_comprimido.html#af30aca2e16d1203bf569c10651f1fb47">compresor.persistencia.Comprimido.getData</a></div><div class="ttdeci">byte [] getData()</div><div class="ttdoc">getter del atributo data </div><div class="ttdef"><b>Definition:</b> <a href="_comprimido_8java_source.html#l00033">Comprimido.java:33</a></div></div>
+<div class="ttc" id="classcompresor_1_1persistencia_1_1_comprimido_html_ad2d2e0a70ab81c65108588c826583faa"><div class="ttname"><a href="classcompresor_1_1persistencia_1_1_comprimido.html#ad2d2e0a70ab81c65108588c826583faa">compresor.persistencia.Comprimido.setData</a></div><div class="ttdeci">void setData(byte[] data)</div><div class="ttdoc">setter del atributo data </div><div class="ttdef"><b>Definition:</b> <a href="_comprimido_8java_source.html#l00041">Comprimido.java:41</a></div></div>
+<div class="ttc" id="classcompresor_1_1persistencia_1_1_archivo_html_a851ac473ac8723a7790bc2a2881d062e"><div class="ttname"><a href="classcompresor_1_1persistencia_1_1_archivo.html#a851ac473ac8723a7790bc2a2881d062e">compresor.persistencia.Archivo.getTamaño</a></div><div class="ttdeci">int getTamaño()</div><div class="ttdoc">getter del atributo tamaño </div><div class="ttdef"><b>Definition:</b> <a href="_archivo_8java_source.html#l00085">Archivo.java:85</a></div></div>
+<div class="ttc" id="classcompresor_1_1utils_1_1_byte_utils_html_a633730984f855832bcf90b92cea2768d"><div class="ttname"><a href="classcompresor_1_1utils_1_1_byte_utils.html#a633730984f855832bcf90b92cea2768d">compresor.utils.ByteUtils.byteArrayToString</a></div><div class="ttdeci">static String byteArrayToString(byte[] data)</div><div class="ttdoc">Convierte un array de bytes a formato String. </div><div class="ttdef"><b>Definition:</b> <a href="_byte_utils_8java_source.html#l00019">ByteUtils.java:19</a></div></div>
+<div class="ttc" id="classcompresor_1_1persistencia_1_1_archivo_html_aebfa9e86a26e9ba258bf2a430000d4e5"><div class="ttname"><a href="classcompresor_1_1persistencia_1_1_archivo.html#aebfa9e86a26e9ba258bf2a430000d4e5">compresor.persistencia.Archivo.setTamaño</a></div><div class="ttdeci">void setTamaño(int tamaño)</div><div class="ttdoc">setter del atributo tamaño </div><div class="ttdef"><b>Definition:</b> <a href="_archivo_8java_source.html#l00093">Archivo.java:93</a></div></div>
+<div class="ttc" id="classcompresor_1_1persistencia_1_1_comprimido_html"><div class="ttname"><a href="classcompresor_1_1persistencia_1_1_comprimido.html">compresor.persistencia.Comprimido</a></div><div class="ttdoc">Estructura y métodos de un archivo comprimido. </div><div class="ttdef"><b>Definition:</b> <a href="_comprimido_8java_source.html#l00017">Comprimido.java:17</a></div></div>
+<div class="ttc" id="namespacecompresor_1_1utils_html"><div class="ttname"><a href="namespacecompresor_1_1utils.html">compresor.utils</a></div><div class="ttdef"><b>Definition:</b> <a href="_byte_utils_8java_source.html#l00006">ByteUtils.java:6</a></div></div>
+<div class="ttc" id="classcompresor_1_1persistencia_1_1_comprimido_html_a65fd983153c3c61784d46b57b67a662b"><div class="ttname"><a href="classcompresor_1_1persistencia_1_1_comprimido.html#a65fd983153c3c61784d46b57b67a662b">compresor.persistencia.Comprimido.toString</a></div><div class="ttdeci">String toString()</div><div class="ttdoc">Convierte un array de bytes a String. </div><div class="ttdef"><b>Definition:</b> <a href="_comprimido_8java_source.html#l00051">Comprimido.java:51</a></div></div>
+<div class="ttc" id="classcompresor_1_1persistencia_1_1_archivo_html_a0786924f3ec2e97d718eb3253ca5cb1b"><div class="ttname"><a href="classcompresor_1_1persistencia_1_1_archivo.html#a0786924f3ec2e97d718eb3253ca5cb1b">compresor.persistencia.Archivo.path</a></div><div class="ttdeci">String path</div><div class="ttdef"><b>Definition:</b> <a href="_archivo_8java_source.html#l00018">Archivo.java:18</a></div></div>
+<div class="ttc" id="classcompresor_1_1persistencia_1_1_archivo_html"><div class="ttname"><a href="classcompresor_1_1persistencia_1_1_archivo.html">compresor.persistencia.Archivo</a></div><div class="ttdoc">Estructura y métodos de un archivo. </div><div class="ttdef"><b>Definition:</b> <a href="_archivo_8java_source.html#l00017">Archivo.java:17</a></div></div>
+<div class="ttc" id="classcompresor_1_1persistencia_1_1_comprimido_html_a61556741b2cdea20e6c49d7f885217af"><div class="ttname"><a href="classcompresor_1_1persistencia_1_1_comprimido.html#a61556741b2cdea20e6c49d7f885217af">compresor.persistencia.Comprimido.Comprimido</a></div><div class="ttdeci">Comprimido(String path)</div><div class="ttdoc">Constructura de un comprimido. </div><div class="ttdef"><b>Definition:</b> <a href="_comprimido_8java_source.html#l00025">Comprimido.java:25</a></div></div>
+<div class="ttc" id="classcompresor_1_1utils_1_1_byte_utils_html"><div class="ttname"><a href="classcompresor_1_1utils_1_1_byte_utils.html">compresor.utils.ByteUtils</a></div><div class="ttdoc">Implementación de métodos útiles para la manipulación de arrays de bytes. </div><div class="ttdef"><b>Definition:</b> <a href="_byte_utils_8java_source.html#l00012">ByteUtils.java:12</a></div></div>
+<div class="ttc" id="classcompresor_1_1persistencia_1_1_comprimido_html_abde717e9ddf7822c9a0f8da3404be84d"><div class="ttname"><a href="classcompresor_1_1persistencia_1_1_comprimido.html#abde717e9ddf7822c9a0f8da3404be84d">compresor.persistencia.Comprimido.data</a></div><div class="ttdeci">byte [] data</div><div class="ttdef"><b>Definition:</b> <a href="_comprimido_8java_source.html#l00018">Comprimido.java:18</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

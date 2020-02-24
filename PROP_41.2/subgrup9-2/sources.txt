@@ -1,0 +1,13 @@
+./src/compresor/persistencia/Comprimido.java
+./src/compresor/persistencia/Archivo.java
+./src/compresor/persistencia/Metadata.java
+./src/compresor/persistencia/Estadistica.java
+./src/compresor/dominio/ControladorCompresor.java
+./src/compresor/dominio/ControladorDescompresor.java
+./src/compresor/dominio/ControladorGestorArchivo.java
+./src/compresor/dominio/algoritmo/AlgoritmoLZSS.java
+./src/compresor/dominio/algoritmo/AlgoritmoLZW.java
+./src/compresor/dominio/algoritmo/AlgoritmoJPEG.java
+./src/compresor/dominio/algoritmo/Algoritmo.java
+./src/compresor/dominio/algoritmo/AlgoritmoLZ78.java
+./src/compresor/Main.java

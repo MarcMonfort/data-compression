@@ -1,0 +1,7 @@
+digraph "Representación gráfica de la clase"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="compresor.persistencia.AlgoritmoEnum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$enumcompresor_1_1persistencia_1_1_algoritmo_enum.html",tooltip="Contiene, ordenados, los algoritmos de compresión implementados en el programa 0: LZ78 1: LZSS 2: LZW..."];
+}

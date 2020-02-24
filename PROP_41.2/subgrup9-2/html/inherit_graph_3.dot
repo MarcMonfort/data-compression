@@ -1,0 +1,7 @@
+digraph "Representación gráfica de la clase"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="compresor.dominio.Controlador\lDescompresor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcompresor_1_1dominio_1_1_controlador_descompresor.html",tooltip="Controlador de descompresión Contiene las funciones esenciales que mandan la ejecución de la descompr..."];
+}

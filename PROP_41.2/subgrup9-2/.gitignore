@@ -1,0 +1,6 @@
+# Intellij
+.idea/
+out/
+.estadisticas.dat
+*.prop
+

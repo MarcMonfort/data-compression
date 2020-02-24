@@ -1,0 +1,47 @@
+Formato TEST:
+
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+
+
+nombre_1 id_1
+nombre_2 id_2
+...
+nombre_n id_n
+
+TEST
+
+nombre_a
+nombre_b
+...
+nombre_m
+
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
+
+Descripcion: 	Se insertan "insert" al arbol de nombre_1 hasta nombre_n (con su respectivo id). 
+		Se comprueba "search" y "getId" de los nombres nombre_a hasta nombre_m.
+
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
+
+
+Prova 1
+Descripció: Funcionamiento básico
+Objectius: Comprobar funcioinamiento básico.
+
+
+Prova 2
+Descripció: Carácteres Especiales
+Objectius: Comprobar que el arbol es capaz de almacenar caracteres especiales (ej. ñ, ç)
+
+Prova 3
+Descripció: Némeros
+Objectius: Comprobar que el arbol es capaz de almacenar números como nombre.
+
+
+Prova 4
+Descripció: Palabra largas y números grandes
+Objectius: Comprobar que el arbol es capaz de almacenar palabras largas y "Id" con números grandes.
